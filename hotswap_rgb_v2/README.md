@@ -34,8 +34,8 @@ Modified with additional EEPROM and OLED Screen
 | ---:  | :---          | :---               | :---             | :---          | :---:                         |
 | 3     | Capacitor     | CAP 0.1u X7R 16V   | SMD 0603         | C1 - C3       |                               |
 | 17    | Diodes        | 1N4148W            | SMD SOD123       | D1 - D17      |                               |
-| 2     | LED           | Any Colors         | SMD LED 0603     | DL1, DL2      |                               |
-| 1     | LED           | Any Colors         | SMD LED 0603     | DL3           |                               |
+| 2     | LED           | Any Colors         | SMD LED 0603     | DL1, DL2      | Original layer indicator LED  |
+| 1     | LED           | Any Colors         | SMD LED 0603     | DL3           | Original Numlock status LED   |
 | 16    | LED           | SK6812MINI-E       | SK6812MINI-E     | LED1-LED16    | Optional                      |
 | 1     | Processor     | RPi Pico           | Rpi Pico Pads    | M1            |                               |
 | 1     | OLED Display  | 0.91" OLED Display | 2.54mm Scoket    | M2            |                               |
@@ -46,8 +46,8 @@ Modified with additional EEPROM and OLED Screen
 | 1     | Encoder       | EC11 Rotary Encoder| 7 pins encoder   | RE_3_1        | Any EC11 Compatible OK        |
 | 16    | KB-Socket     | Kailh Socket       | Kailh socket     | S1 - S16      |                               |
 | 1     | Push Btn      | Alps SKRK          | ALPS SKRK        | S17           |                               |
-| 1     | EEPROM        | U1                 | SOIC-8           | U1            |                               |
-| 1     | Logic Trans   | 74LVC2GU04GW       | SC-70            | U2            | Logic Level shifter           |
+| 1     | EEPROM        | 24LC32             | SOIC-8           | U1            |                               |
+| 1     | Logic IC      | 74LVC2GU04GW       | SC-70            | U2            | Logic Level shifter           |
 
 
 ## Making the PCB
